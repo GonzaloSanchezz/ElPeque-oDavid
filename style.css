@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-decoration: none
+}
+a{
+    color: black;
+}
+.body{
+    background-color: #D8CFAF;
+    font-family: montserrat;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./images/tomates.png);
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 100%;
+    background-size: 100%;
+    margin-bottom: 100px;
+}
+header{
+    height: 60px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 128, 0, 0.13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textMain{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navList{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.navList li{
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    font-weight: 700;
+}
+h2{
+    font-weight: 600;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.logoDavid{
+    margin-top: 20px;
+    height: 300px;
+}
+.natural{
+    height: 300px;
+    padding-bottom: 200px;
+    padding-right: 50px;
+}
+.conservantes{
+    height: 300px;
+    padding-bottom: 200px;
+    padding-left: 50px;
+}
+
+/* primer seccion */
+
+.primerSection{
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+h3{
+    font-size: 50px;
+    font-weight: 200;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+/* carrousel */
+.carrusel1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(185, 49, 79);
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.cargaTomate{
+    height: 300px;
+}
+.carrousel1Text{
+    display: flex;
+    width: 700px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.carrusel1 h4{
+    font-size: 30px;
+    font-weight: 400;
+}
+.carrousel1Text p{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.carousel{
+    margin-top: 50px;
+    width: 1100px;
+}
+.imgCarrousel2{
+    height: 220px;
+}
+.carrousel2Text{
+    width: 810px;
+}
+.imgCarrousel3{
+    height: 200px;
+}
