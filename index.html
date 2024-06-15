@@ -17,20 +17,14 @@
 </head>
 <body class="body">
     <div class="mainHeader">
-        <header>
-            <div class="logo">
-                <img src="" alt="">
-                <span></span>
-            </div>
-            <div class="nav">
+        <header data-aos="fade-down">
                 <ul class="navList">
                     <li><a href="#section2">NUESTRA ELABORACIÓN</a></li>
                     <li><a href="#section3">INFORMACIÓN NUTRICIONAL</a></li>
                     <li><a href="#section4">CONTACTANOS</a></li>
-                    <li><a href="">DONDE ESTAMOS</a></li>
-                    <li><a href="">NUESTRA FILOSOFÍA</a></li>
+                    <li><a href="#section5">DONDE ESTAMOS</a></li>
+                    <li><a href="#section6">NUESTRA FILOSOFÍA</a></li>
                 </ul>
-            </div>
         </header>
         <main id="section1" data-aos="zoom-in" class="main">
             <div class="textMain">
@@ -44,65 +38,75 @@
                 </div>
             </div>
         </main>
+        <main id="section1Hidden" data-aos="zoom-in" >
+            <div class="textMain">
+                <h1>SALSA CASERA</h1>
+                <h1>ORGÁNICA</h1>
+                <h2>ELABORACIÓN ARTESANAL</h2>
+                <div>
+                    <img class="natural" src="./images/prodNatural.png" alt="">
+                    <img class="logoDavid" src="./images/logoDavid.png" alt="">
+                    <img class="conservantes" src="./images/sinConservantes.png" alt="">
+                </div>
+            </div>
+        </main>
     </div>
-    <section id="section2" class="primerSection">
+    <section data-aos="zoom-in" id="section2" class="primerSection">
         <h3>
             NUESTRA ELABORACIÓN
         </h3>
-        <div>
-            <div id="carouselExample" class="carousel slide">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="carrusel1">
-                        <h4>Nuestra Búsqueda de Tomates de Calidad:</h4>
-                        <div class="carrousel1Text">
-                            <p>Nos mantenemos en contacto con diversas fincas locales y agricultores que nos proveen de la mejor calidad de tomate. Observamos que los procesos de cultivo y cosecha cumplan nuestros estandares para garantizar la excelencia de nuestro producto, y llevamos las cajas personalmente a nuestra fabrica para comenzar el proceso de producción</p>
-                            <img class="cargaTomate" src="./images/cargaDeTomate.jpg" class="d-block w-100" alt="...">
-                        </div>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <div class="carrusel1">
+                    <h4 class="h4">Nuestra Búsqueda de Tomates de Calidad:</h4>
+                    <div class="carrousel1Text">
+                        <p>Nos mantenemos en contacto con diversas fincas locales y agricultores que nos proveen de la mejor calidad de tomate. Observamos que los procesos de cultivo y cosecha cumplan nuestros estandares para garantizar la excelencia de nuestro producto, y llevamos las cajas personalmente a nuestra fabrica para comenzar el proceso de producción</p>
+                        <img class="cargaTomate" src="./images/cargaDeTomate.jpg" class="d-block w-100" alt="...">
                     </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="carrusel1">
-                        <h4>Proceso de fabricación:</h4>
-                        <div class="carrousel1Text">
-                            <p>Cortamos cada uno de los tomates recién lavados y luego los sometemos a un proceso de molienda manual e individual. Esto garantiza que ningún agente externo pueda contaminar el producto. Después de la molienda, los tomates pasan por un proceso de hervido antes de ser envasados y etiquetados.</p>
-                            <img class="cargaTomate imgCarrousel2" src="./images/elaboración.jpg" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="carrusel1">
-                        <h4>Traslado Final:</h4>
-                        <div class="carrousel1Text carrousel2Text">
-                            <p>Finalmente, después de todo el proceso de elaboración, llevamos a cabo el traslado meticuloso de nuestro producto a los destinos correspondientes. Queremos destacar especialmente nuestro depósito ubicado en la ciudad de Buenos Aires, donde almacenamos con cuidado cada lote de nuestra salsa casera. Desde allí, distribuimos a nuestros clientes y puntos de venta, asegurándonos de que llegue fresca y lista para deleitar los paladares más exigentes.</p>
-                            <img class="cargaTomate imgCarrousel3" src="./images/traslado.jpg" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                  </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </div>
+                </div>
+                <div class="carousel-item">
+                <div class="carrusel1">
+                    <h4 class="h4">Proceso de fabricación:</h4>
+                    <div class="carrousel1Text">
+                        <p>Cortamos cada uno de los tomates recién lavados y luego los sometemos a un proceso de molienda manual e individual. Esto garantiza que ningún agente externo pueda contaminar el producto. Después de la molienda, los tomates pasan por un proceso de hervido antes de ser envasados y etiquetados.</p>
+                        <img class="cargaTomate imgCarrousel2" src="./images/elaboración.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <div class="carrusel1">
+                    <h4 class="h4">Traslado Final:</h4>
+                    <div class="carrousel1Text carrousel2Text">
+                        <p>Finalmente, después de todo el proceso de elaboración, llevamos a cabo el traslado meticuloso de nuestro producto a los destinos correspondientes. Queremos destacar especialmente nuestro depósito ubicado en la ciudad de Buenos Aires, donde almacenamos con cuidado cada lote de nuestra salsa casera. Desde allí, distribuimos a nuestros clientes y puntos de venta, asegurándonos de que llegue fresca y lista para deleitar los paladares más exigentes.</p>
+                        <img class="cargaTomate imgCarrousel3" src="./images/traslado.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
         
     </section>
     <section id="section3" class="segundaSection">
-        <h3>
+        <h3 data-aos="zoom-in">
             INFORMACIÓN NUTRICIONAL
         </h3>
-        <img class="tablaNutricional" src="./images/tablaNutricional.png" alt="">
+        <img data-aos="flip-left" class="tablaNutricional" src="./images/tablaNutricional.png" alt="">
     </section>
-    <section id="section4" class="tercerSection">
+    <section data-aos="zoom-in" id="section4" class="tercerSection">
         <h3 class="h3Contacto">CONTACTO</h3>
         <div class="contacto">
             <span>Contáctanos:
-
+                <br><br><br>
                 Si tienes alguna pregunta, sugerencia o simplemente deseas saber más sobre nuestra salsa casera orgánica, no dudes en ponerte en contacto con nosotros. Puedes escribirnos a través del siguiente apartado de links y enviarnos un mensaje a nuestras redes!
             </span>
             <div class="mainContacto">
@@ -130,6 +134,46 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section data-aos="zoom-in" id="section5" class="cuartaSection">
+        <h3>DONDE ESTAMOS</h3>
+        <div class="textCuartaSection">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2370.661375067796!2d-68.8267622752723!3d-32.82879325749555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzLCsDQ5JzQyLjciUyA2OMKwNDknMzYuMSJX!5e0!3m2!1ses-419!2sar!4v1718401447763!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <span>
+                Nuestra Fábrica en Las Heras, Mendoza:
+                <br>
+                Enclavada en el corazón de la pintoresca provincia de Mendoza, nuestra fábrica es un oasis de creatividad y sabor. Ubicada en el municipio de Las Heras, rodeada de majestuosas montañas y viñedos, es aquí donde nace nuestra pasión por la cocina artesanal y los ingredientes frescos.
+                <br>
+                Cada día, nuestro equipo se sumerge en la esencia de esta tierra: los tomates jugosos y las hierbas aromáticas que crecen bajo el sol mendocino. Desde la cosecha hasta la elaboración, seguimos un proceso meticuloso para garantizar que cada lote de nuestra salsa casera orgánica cumpla nuestros altos estándares.
+                <br>
+                Así que, cuando saborees nuestra salsa, recuerda que detrás de cada cucharada hay un pedacito de Mendoza, una historia de esfuerzo y amor por la cocina tradicional.
+                <br>
+                ¡Te invitamos a visitarnos y descubrir la magia de Las Heras en cada bocado!
+            </span>
+        </div>
+    </section>
+    <section data-aos="zoom-in" id="section6" class="quintaSection">
+        <h3>NUESTRA FILOSOFÍA</h3>
+        <p>
+            Creemos que la comida es más que una simple necesidad; es una experiencia que conecta a las personas con la tierra, la cultura y la tradición. Aquí está nuestra filosofía en detalle:
+            <br>
+            Ingredientes Orgánicos y Locales:
+            Nos comprometemos a utilizar ingredientes orgánicos cultivados en la fértil tierra de Mendoza. Nuestros tomates y hierbas crecen respetando el equilibrio natural del ecosistema.
+            Apoyamos a los agricultores locales, fomentando una economía sostenible y reduciendo nuestra huella de carbono al minimizar el transporte de alimentos.
+            <br>
+            El Arte de la Elaboración Artesanal:
+            Nuestra salsa no es solo un producto; es una obra de arte culinario. Cada lote se elabora con dedicación y pasión. Cortamos los tomates a mano, mezclamos las especias con cuidado y cocinamos lentamente para resaltar los sabores naturales.
+            Valoramos la tradición y la artesanía, manteniendo técnicas ancestrales vivas en cada cucharada.
+            <br>
+            Transparencia y Honestidad:
+            Creemos en la transparencia total. Desde la selección de ingredientes hasta el proceso de envasado, compartimos cada paso con nuestros clientes. Queremos que sepan exactamente lo que están disfrutando.
+            Sabor Auténtico y Saludable:
+            No añadimos conservantes, colorantes ni sabores artificiales. Nuestra salsa es pura y saludable, como si la hubieras hecho en casa.
+            Cada bocado es una explosión de sabor: tomates maduros y un toque de hierbas frescas.
+            <br>
+            Comunidad y Compartir la Mesa:
+            La comida nos une. Invitamos a nuestros clientes a compartir la mesa con sus seres queridos, a disfrutar de la vida y a crear recuerdos alrededor de una buena comida.
+        </p>
     </section>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
