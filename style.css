@@ -27,7 +27,7 @@ a{
 }
 #section1Hidden{
   display: none;
-
+  height: 1000px;
 }
 header{
     width: 100%;
@@ -295,12 +295,15 @@ h4{
   }
 
 .contacto{
+  background-color: #f0ebda;
+    padding: 20px;
     display: flex;
+    border: 2px black solid;
     
 }
 .contacto span{
     width: 300px;
-    margin-right: 200px;
+    margin-right: 100px;
     font-size: 20px;
 
 }
@@ -309,15 +312,23 @@ h4{
 }
 
 /* cuarta seccion */
-
+#section4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .cuartaSection{
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 200px;
 }
-.textCuartaSection{
+.textCuartaSection{ 
+    padding: 20px;
+    border: black solid 2px;
+    background-color: #f0ebda;
     display: flex;
     margin-top: 80px;
 }
@@ -336,6 +347,7 @@ h4{
     background-color: rgba(0, 128, 0, 0.13);
     margin-top: 50px;
     width: 800px;
+    border: black 2px solid;
 }
 
 @media (max-width: 900px){
@@ -408,8 +420,23 @@ h4{
   }
 }
 @media (max-width: 500px){
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    width: 95%;
+  }
   h3{
-    font-size: 20px;
+    font-size: 25px;
+    padding: 0px;
+    display: flex;
   }
   .main{
     display: none;
@@ -426,12 +453,12 @@ h4{
     flex-direction: column;
   }
   .carousel{
-    width: 300px;
+    width: 350px;
     height: 400px;
   }
   #section2{
     background-color: rgba(0, 128, 0, 0.13);
-    height: 770px;
+    height: 790px;
   }
   .tablaNutricional{
     height: 330px;
@@ -440,8 +467,10 @@ h4{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 98%;
   }
   .contacto span{
+    width: 100%;
     font-size: 15px;
     margin: 0px 10px 30px 10px;
   }
@@ -460,6 +489,57 @@ h4{
   .textCuartaSection span{
     width: 100%;
   }
+  #section1Hidden{
+    display: block;
+    height: 600px;
+  }
+  h1{
+    font-size: 30px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  
+  #section1Hidden .natural1{
+    height: 80px;
+  }
+  #section1Hidden .logoDavid1{
+    height: 180px;
+  }
+  #section1Hidden .conservantes1{
+    height: 80px;
+  }
+  header{
+    display: none;
+  }
+  .imgs{
+    margin-top: 40px;
+    display: flex;
+  }
+  .textMain{
+    padding-top: 0px;
+  }
+  .btn{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: 700;
+  }
+  .btnAlt{
+    background-color: red;
+  }
+  .dropdown-menu{
+    background-color: red;
+  }
+  .dropdown-item{
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  .primerSection{
+    border: black 2px solid;
+  }
 }
+
 
 
