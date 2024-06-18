@@ -102,8 +102,6 @@ h2{
 h3{
     font-size: 50px;
     font-weight: 200;
-    padding-top: 20px;
-    padding-left: 20px;
 }
 
 /* carrousel */
@@ -344,7 +342,6 @@ h4{
 }
 .quintaSection p{
     padding: 20px;
-    background-color: rgba(0, 128, 0, 0.13);
     margin-top: 50px;
     width: 800px;
     border: black 2px solid;
@@ -367,6 +364,7 @@ h4{
   }
   h3{
     scale: 90%;
+    background-color: #f0ebda;
   }
   iframe{
     height: 400px;
@@ -399,7 +397,6 @@ h4{
   .textCuartaSection{
     flex-direction: column-reverse;
     justify-content: center;
-    background-color: rgba(0, 128, 0, 0.13);
     padding: 20px;
   }
   .textCuartaSection span{
@@ -429,14 +426,18 @@ h4{
   section{
     display: flex;
     flex-direction: column;
-    justify-content: baseline;
+    justify-content: center;
     align-items: center;
     width: 95%;
+    scale: 100%;
   }
   h3{
     font-size: 25px;
-    padding: 0px;
+    padding: 15px;
     display: flex;
+    border: black solid 2px;
+    align-items: center;
+    justify-content: center;
   }
   .main{
     display: none;
@@ -455,9 +456,11 @@ h4{
   .carousel{
     width: 350px;
     height: 400px;
+    background-color: #f0ebda;
+    height: 1000px;
+    border: 2px black solid;
   }
   #section2{
-    background-color: rgba(0, 128, 0, 0.13);
     height: 790px;
   }
   .tablaNutricional{
@@ -521,7 +524,7 @@ h4{
   }
   .btn{
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
     font-weight: 700;
   }
   .btnAlt{
@@ -536,8 +539,21 @@ h4{
     display: flex;
     justify-content: center;
   }
-  .primerSection{
-    border: black 2px solid;
+  .informacionNutricional{
+    font-size: 20px;
+  }
+  .carousel-control-prev{
+    margin-bottom: 300px;
+  }
+  .carousel-control-next{
+    margin-bottom: 300px;
+  }
+  .carrousel1Text p {
+    margin-right: 0px;
+    width: 250px;
+  }
+  p{
+    background-color: #f0ebda;
   }
 }
 

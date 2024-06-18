@@ -64,12 +64,17 @@
         </main>
     </div>
     <section data-aos="zoom-in" id="section2" class="primerSection">
-        <h3>
+        <h3 class="informacionNutricional">
             NUESTRA ELABORACIÓN
         </h3>
-        <div id="carouselExample" class="carousel slide">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
+              <div class="carousel-item active" data-bs-interval="10000">
                 <div class="carrusel1">
                     <h4 class="h4">Nuestra Búsqueda de Tomates:</h4>
                     <div class="carrousel1Text">
@@ -77,8 +82,8 @@
                         <img class="cargaTomate" src="./images/cargaDeTomate.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
-                </div>
-                <div class="carousel-item">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
                 <div class="carrusel1">
                     <h4 class="h4">Proceso de fabricación:</h4>
                     <div class="carrousel1Text">
@@ -86,8 +91,8 @@
                         <img class="cargaTomate imgCarrousel2" src="./images/elaboración.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
-                </div>
-                <div class="carousel-item">
+              </div>
+              <div class="carousel-item">
                 <div class="carrusel1">
                     <h4 class="h4">Traslado Final:</h4>
                     <div class="carrousel1Text carrousel2Text">
@@ -95,21 +100,20 @@
                         <img class="cargaTomate imgCarrousel3" src="./images/traslado.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
-                </div>
+              </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
             </button>
-            </div>
-        
+        </div>
     </section>
     <section id="section3" class="segundaSection">
-        <h3 data-aos="zoom-in">
+        <h3 class="informacionNutricional" data-aos="zoom-in">
             INFORMACIÓN NUTRICIONAL
         </h3>
         <img data-aos="flip-left" class="tablaNutricional" src="./images/tablaNutricional.png" alt="">
