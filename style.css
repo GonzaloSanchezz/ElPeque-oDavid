@@ -454,7 +454,7 @@ h4{
     flex-direction: column;
   }
   .carousel{
-    width: 350px;
+    width: 98%;
     height: 400px;
     background-color: #f0ebda;
     height: 1000px;
@@ -523,7 +523,7 @@ h4{
     padding-top: 0px;
   }
   .btn{
-    margin-top: 20px;
+    margin-top: 60px;
     margin-bottom: 90px;
     font-weight: 700;
   }
