@@ -26,6 +26,9 @@ a{
     background-size: 100%;
     margin-bottom: 150px;
 }
+p{
+  background-color: #f0ebda;
+}
 .imgHidden{
   display: none;
 }
@@ -563,9 +566,6 @@ h4{
   .carrousel1Text p {
     margin-right: 0px;
     width: 250px;
-  }
-  p{
-    background-color: #f0ebda;
   }
   .imgHidden{
     opacity: 0.1;
