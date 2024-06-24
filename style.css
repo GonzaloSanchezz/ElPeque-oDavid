@@ -849,13 +849,16 @@ iframe{
     width: 100%;
   }
   .imgHorizontal{
-    scale: 45%;
+    scale: 55%;
   }
   .imgHorizontal2{
-    scale: 60%;
+    scale: 75%;
   }
   .spanAltGaleria{
     font-size: 13px;
+  }
+  .divGaleria2{
+    width: 120%;
   }
 }
 
