@@ -3,6 +3,7 @@
     border: 0;
     padding: 0;
     text-decoration: none;   
+    color: black;
 }
 a{
     color: black;
@@ -32,6 +33,7 @@ a{
 }
 .p{
   background-color: #f0ebda;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
 .p1{
   background-color: #f0ebda;
@@ -104,10 +106,18 @@ h2{
     padding-right: 50px;
     z-index: 10;
 }
+.natural1{
+  background-color: rgba(255, 255, 255, 0.548);
+  border-radius: 100px;
+}
 .conservantes{
     height: 300px;
     padding-bottom: 200px;
     padding-left: 50px;
+}
+.conservantes1{
+  background-color: rgba(255, 255, 255, 0.548);
+  border-radius: 40px;
 }
 
 /* primer seccion */
@@ -132,6 +142,7 @@ h3{
     align-items: center;
     padding-top: 30px;
     padding-bottom: 40px;
+
 }
 .cargaTomate{
     height: 300px;
@@ -154,6 +165,7 @@ h4{
 .carousel{
     margin-top: 50px;
     width: 1100px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
 .imgCarrousel2{
     height: 220px;
@@ -176,7 +188,9 @@ h4{
 }
 .tablaNutricional{
     height: 600px;
+    margin-top: 25px;
 }
+
 
 /* tercer section */
 .tercerSection{
@@ -313,11 +327,11 @@ h4{
   }
 
 .contacto{
-  background-color: #f0ebda;
+    background-color: #f0ebda;
     padding: 20px;
     display: flex;
     border: 2px black solid;
-    
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
 .contacto span{
     width: 300px;
@@ -467,6 +481,7 @@ iframe{
     background-color: #f0ebda;
     display: flex;
     margin-top: 80px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
 .textCuartaSection span{
     width: 450px;
@@ -485,6 +500,41 @@ iframe{
     border: black 2px solid;
 }
 
+ /* seccion imagenes */
+ .h3Galería{
+  margin-bottom: 100px;
+}
+.imgGaleria{
+  height: 400px;
+  margin: 30px;
+  border: 1px solid black;
+}
+.divGaleria{
+  gap: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.sectionGaleria{
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.divCenterGaleria{
+  padding: 15px;
+  background-color: #f0ebda;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin-bottom: 50px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.divCenterGaleria span{
+  margin-bottom: 20px;
+}
 /* seccion intermedia */
 #sectionIntermedia{
   margin-bottom: 300px;
@@ -504,6 +554,7 @@ iframe{
   background: black;
   margin: auto;
   border-radius: 0px 0px 15px 15px;
+  margin-top: 0px;
  }
  
  .card span {
@@ -525,12 +576,14 @@ iframe{
  }
  
  .card .img {
+  display: flex;
+  justify-content: center;
   width: 70px;
   height: 80px;
   background: black;
   border-radius: 15px;
   margin: auto;
-  margin-top: 25px;
+  margin-top: 0px;
  }
  
  .card button {
@@ -548,7 +601,18 @@ iframe{
  .card button:hover {
   background: black;
  }
-
+ .fotoJulio{
+  height: 130px;
+  border-radius: 18px;
+  border: 1px solid black;
+  margin-bottom: 120px;
+ }
+@media(max-width: 1000px){
+  .divGaleria{
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media (max-width: 900px){
   .navList li{
     font-size: 10px;
@@ -643,6 +707,7 @@ iframe{
     border: black solid 2px;
     align-items: center;
     justify-content: center;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
   }
   .main{
     display: none;
@@ -705,7 +770,8 @@ iframe{
     display: block;
     height: 650px;
     margin-bottom: 300px;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: 10px 10px 10px 30px rgba(0, 0, 0, 0.3);
   }
   h1{
     font-size: 30px;
@@ -777,7 +843,19 @@ iframe{
   img{
     z-index: 100;
   }  
+  .divCenterGaleria{
+    scale: 80%;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  .imgHorizontal{
+    scale: 45%;
+  }
+  .imgHorizontal2{
+    scale: 60%;
+  }
+  .spanAltGaleria{
+    font-size: 13px;
+  }
 }
-
-
 
