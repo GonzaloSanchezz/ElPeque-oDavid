@@ -20,6 +20,9 @@ a{
     justify-content: center;
     align-items: center;
 }
+.dropdown-item{
+  font-weight: 600;
+}
 .main{
     display: flex;
     flex-direction: column;
@@ -106,18 +109,10 @@ h2{
     padding-right: 50px;
     z-index: 10;
 }
-.natural1{
-  background-color: rgba(255, 255, 255, 0.548);
-  border-radius: 100px;
-}
 .conservantes{
     height: 300px;
     padding-bottom: 200px;
     padding-left: 50px;
-}
-.conservantes1{
-  background-color: rgba(255, 255, 255, 0.548);
-  border-radius: 40px;
 }
 
 /* primer seccion */
@@ -373,6 +368,11 @@ iframe{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #D8CFAF;
+  padding: 30px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+  padding-top: 0px;
+  margin-top: 50px;
 }
 .loader {
   width: fit-content;
@@ -380,6 +380,7 @@ iframe{
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .truckWrapper {
@@ -515,7 +516,6 @@ iframe{
   justify-content: space-between;
 }
 .sectionGaleria{
-  margin-top: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -538,6 +538,8 @@ iframe{
 /* seccion intermedia */
 #sectionIntermedia{
   margin-bottom: 300px;
+  display: flex;
+  gap: 200px;
 }
 .card {
   scale: 150%;
@@ -691,6 +693,8 @@ iframe{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(./images/fondoTomatesMobile.png);
+    background-size: 100%;
   }
   section{
     display: flex;
@@ -770,14 +774,24 @@ iframe{
     display: block;
     height: 650px;
     margin-bottom: 300px;
-    border-bottom: 1px solid black;
-    box-shadow: 10px 10px 10px 30px rgba(0, 0, 0, 0.3);
+
   }
-  h1{
-    font-size: 30px;
+  .h1Alt{
+    font-size: 27px;
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0px;
   }
   h2{
     font-size: 20px;
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0px;
+
   }
   
   #section1Hidden .natural1{
@@ -831,7 +845,7 @@ iframe{
     margin-right: 0px;
     width: 250px;
   }
-  .imgHidden{
+  /* .imgHidden{
     opacity: 0.3;
     display: flex;
     position: absolute;
@@ -839,7 +853,7 @@ iframe{
     height: 100%;
     z-index: 0;
     overflow: hidden;
-  }
+  } */
   img{
     z-index: 100;
   }  
@@ -860,5 +874,26 @@ iframe{
   .divGaleria2{
     width: 120%;
   }
+  .primerSection{
+    margin-bottom: 100px;
+  }
+  .segundaSection{
+    margin-bottom: 100px;
+  }
+  .main{
+    margin-bottom: 0px;
+  }
+  .tercerSection{
+    margin-bottom: 100px;
+  }
+  .cuartaSection{
+    margin-bottom: 0px;
+  }
+  .hervido1{
+    width: 330px;
+    height: 330px;
+    scale: 100%;
+  }
+
 }
 
